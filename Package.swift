@@ -24,11 +24,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "abseil",
-      // TODO(ncooke3): Temporarily hosting on GitHub while wiring everything
-      // up. Set up hosting elsewhere and point to resulting URL.
       url: "https://dl.google.com/firebase/ios/bin/abseil/1.2021110200.0/abseil.zip",
-      // TODO(ncooke3): Update the `checksum` when updating above URL.
-      checksum: "bba6a353ff3f6f70264b507b05a2d65de09f624da80d437b76ff37115bfc0bba"
+      checksum: "6776cf3f28e84965a2725861012f67e77dfa56f7ebf147f5671c26b1d9585440"
     )
   ]
 )
