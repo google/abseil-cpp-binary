@@ -24,8 +24,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "abseil",
-      url: "https://dl.google.com/firebase/ios/bin/abseil/1.2021110200.0/abseil.zip",
-      checksum: "6776cf3f28e84965a2725861012f67e77dfa56f7ebf147f5671c26b1d9585440"
+      url: "https://dl.google.com/firebase/ios/bin/abseil/1.2022062300.0/abseil.zip",
+      checksum: "15d896b7fd5dea5982594327bd2759a6ef6863a14d6aa6ffb72957f4064569ba"
     )
   ]
 )
