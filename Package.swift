@@ -19,13 +19,19 @@ import PackageDescription
 let package = Package(
   name: "abseil",
   products: [
-    .library(name: "abseil", targets: ["abseil"])
+    .library(name: "abseil", targets: ["absl-Wrapper"])
   ],
   targets: [
+    .target(
+        name: "absl-Wrapper",
+        dependencies: ["absl"],
+        path: "absl-Wrapper",
+        resources: [.process("Resources/PrivacyInfo.xcprivacy")]
+    ),
     .binaryTarget(
-      name: "abseil",
-      url: "https://dl.google.com/firebase/ios/bin/abseil/1.2022062300.0/abseil.zip",
-      checksum: "15d896b7fd5dea5982594327bd2759a6ef6863a14d6aa6ffb72957f4064569ba"
+      name: "absl",
+      url: "https://dl.google.com/firebase/ios/bin/abseil/1.2022062300.1/absl.zip",
+      checksum: "7dfcd4d9597feb6602939c9fa6bbedcf1304015ae4ff9d2ee2e40dd4f75cbb72"
     )
   ]
 )
