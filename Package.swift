@@ -19,11 +19,11 @@ import PackageDescription
 let package = Package(
   name: "abseil",
   products: [
-    .library(name: "abseil", targets: ["absl-Wrapper"])
+    .library(name: "abseil", targets: ["abslWrapper"])
   ],
   targets: [
     .target(
-        name: "absl-Wrapper",
+        name: "abslWrapper",
         dependencies: ["absl"],
         path: "absl-Wrapper",
         resources: [.process("Resources/PrivacyInfo.xcprivacy")]
