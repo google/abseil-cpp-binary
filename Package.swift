@@ -30,8 +30,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "absl",
-      url: "https://dl.google.com/firebase/ios/bin/abseil/1.2022062300.1/absl.zip",
-      checksum: "7dfcd4d9597feb6602939c9fa6bbedcf1304015ae4ff9d2ee2e40dd4f75cbb72"
+      url: "https://dl.google.com/firebase/ios/bin/abseil/1.2024011601.0/absl.zip",
+      checksum: "1e361d4ae4ba2939c924ae817b8d1273319ee3009804887dd7c6a6c974387dae"
     )
   ]
 )
